@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		Try to find the minimum and maximum allowable total length by re-arranging the circles.<br/><br/>
+		Click on the right or left side of a circle to move it in that direction.<br/>
+		There is also the option to shuffle all the circles into a random order. <button onclick="shuffleSpheres();">Shuffle</button>
+		<button onclick="if(shuffleSpheresFast()) {this.innerHTML = 'Stop Shuffle Fast'} else {this.innerHTML = 'Shuffle Fast'}">Shuffle Fast</button><br/><br/>
+		<canvas id="myCanvas" width="1650" height="100" style="border:1px solid #000000;"></canvas>
+		<br/><br/><div id="result"></div>
+		<br/><br/><div id="highest"></div>
+		<div id="lowest"></div>
+	</body>
+</html>
